@@ -2,6 +2,16 @@
 
 Este repositório contém scripts para limpar a memória cache do sistema MK-AUTH. Ele inclui um script de limpeza de memória (limpa_memoria.sh) e um instalador que configura o cron para execução periódica do script (instala_limpador.sh).
 -------------------------------------------------------------------------------------------------------------
+✅ Instalação:
+
+Para instalar o limpador de memória e configurar a execução automática via cron, execute o seguinte comando no seu servidor:
+
+bash <(wget -qO- https://raw.githubusercontent.com/theHenriqueFerreira/limpa_memoria/main/instala_limpador.sh)
+
+Durante a instalação, você será solicitado a definir a hora e os minutos em que deseja que o script seja executado diariamente.
+
+
+----------------------------------------------------------------------------------------------------------------
 -Scripts
 
 limpa_memoria.sh
@@ -14,15 +24,6 @@ Limpa toda a memória cache (páginas, dentries e inodes).
 instala_limpador.sh
 Este script instala o limpador de memória e configura uma tarefa cron para executá-lo automaticamente em um horário escolhido pelo usuário.
 ----------------------------------------------------------------------------------------------------------------
--Instalação:
-
-Para instalar o limpador de memória e configurar a execução automática via cron, execute o seguinte comando no seu servidor:
-
-bash <(wget -qO- https://raw.githubusercontent.com/theHenriqueFerreira/limpa_memoria/main/instala_limpador.sh)
-
-Durante a instalação, você será solicitado a definir a hora e os minutos em que deseja que o script seja executado diariamente.
-
-----------------------------------------------------------------------------------------------------------------
 
 -Atualização:
 
@@ -30,7 +31,7 @@ Se o script já estiver instalado, o instalador permitirá que você atualize o 
 
 -----------------------------------------------------------------------------------------------------------------
 
--Remoção:
+⛔ Remoção:
 
 Caso deseje remover o script e o cron job por completo, execute o seguinte comando:
 
@@ -56,3 +57,5 @@ Licença:
 
 Este projeto é licenciado sob os termos da licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
+
+PIX para o café 💰: (74)98134-2214
