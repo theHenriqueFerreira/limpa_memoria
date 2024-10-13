@@ -1,6 +1,6 @@
 -Limpador de Memória para MK-AUTH
 
-Este repositório contém scripts para limpar a memória cache do sistema em servidores que utilizam MK-AUTH. Ele inclui um script de limpeza de memória (limpa_memoria.sh) e um instalador que configura o cron para execução periódica do script (instala_limpador.sh).
+Este repositório contém scripts para limpar a memória cache do sistema MK-AUTH. Ele inclui um script de limpeza de memória (limpa_memoria.sh) e um instalador que configura o cron para execução periódica do script (instala_limpador.sh).
 -------------------------------------------------------------------------------------------------------------
 -Scripts
 
